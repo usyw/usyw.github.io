@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+        
+        .box7{
+            height: 300px;
+            width: 500px;
+            border:3px red solid;
+            /* background-color: blue; */
+            margin-top: 100px;
+            margin-left: 100px;
+            overflow:hidden;
+        }
+        .box7 img{
+            transition:.5s;
+            position: relative;
+            top:-30px;
+            left: -100px;
+        }
+        .box7:hover img{
+            transform:scale(1.5);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box7">
+        <img src="./../pic/005.jpg" alt="">
+    </div>
+</body>
+
+</html>
