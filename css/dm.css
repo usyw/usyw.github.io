@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html{
+	perspective:800px;
+}
+body {
+    /* background: #072922f1; */
+    /* background: #080808f1; */
+    background: #04335ff1;
+	
+    width:960px;
+	/* height: 2000px; */
+    margin:auto;
+	position:relative;
+	color:white;
+}
+body::before{
+	/* content:"";
+	background-image: url(./../pic/10.jpg); */
+}
+a:link{
+	text-decoration:none;
+	color:#000;
+}
+a:visited{
+	text-decoration:none;
+	color:#000;
+}
+a:hover{
+	text-decoration:none;
+	color:white;
+}
+a:active{
+	text-decoration:none;
+}
+ul,li{
+	list-style:none;
+}
